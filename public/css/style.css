@@ -1,0 +1,1064 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #dfe2d2;
+}
+
+.height1{
+    margin-top :100px;
+}
+
+.height2{
+    margin-top :25px;
+}
+
+.container-1, .slider {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.regular .resep {
+    width:255px;
+    margin: 0 auto;
+}       
+
+
+/* Navbar */
+
+.navbar{
+    background-color: #f2ad9f;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px#888;
+    box-shadow: 0 0 5px 1px rgb(186, 186, 186);
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-brand{
+    margin-left:55px;
+}
+
+.nav-item{
+    margin-left:20px;
+}
+.navigasi{
+    display: flex;   
+}
+
+.navigasi-icon{
+    font-size: 20px;
+}
+
+.navigasi-kata{
+    margin: 5px 0 0 5px;
+}
+
+.nav-link{
+    color:#ffffff!important;
+}
+
+.nav-link:hover{
+    color:#6cbf84!important;
+}
+
+.active{
+    color:#6cbf84!important;
+}
+
+.button-primary{
+    width:108px;
+    height:29px;
+    border-radius: 15px;
+    background: #6cbf84;
+    color: #FFF9F9;
+    border: none;
+    font-family: montserrat, sans-serif;
+    font-weight: 600px;
+    font-size: 14px;
+}
+
+.button-secundary{
+    width:108px;
+    height:29px;
+    border-radius: 15px;
+    background: #FFF9F9;
+    color: #6cbf84;
+    border: 1px solid #6cbf84;
+    font-family: montserrat, sans-serif;
+    font-weight: 600px;
+    font-size: 14px
+}
+
+/* Login & SigUp*/
+
+#email, #name, #username{
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 2px solid #6cbf84;
+    outline-color: #6cbf84;         
+}
+
+#password , #password_confirmation{
+    width: 85%;
+    padding: 10px 0 10px 18px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.container-in{
+    width: 450px;
+    margin:0 auto;
+}
+
+.back-home{
+    text-decoration:none; 
+    color:#FFFFFF;
+    float:right;
+    width:150px;
+}
+
+.back-home .bi{
+    line-height:30px;
+    background:#6cbf84;
+    border-radius:5px;
+}
+
+.textJudul{
+    line-height:30px;
+    font-size:24px;
+    font-family:'Montserrat', sans-serif;
+    color:#6cbf84;
+}
+
+.textsubjudul{
+    font-size:16px;
+    font-family:'Montserrat', sans-serif;
+    color:#6cbf84;
+}
+
+.show-hide{
+    width:30px;
+    margin-left:25px;
+}
+
+.show-hide .bi{
+    font-size: 30px;
+    color:#6cbf84;
+}
+
+.border-pass{
+    background:#FFFFFF; 
+    border: 2px solid #6cbf84;
+    border-radius: 6px;
+}
+
+.alert-signup{
+    position: absolute;
+}
+
+.d-grid button{
+    background-color: #6cbf84!important;
+    border: #6cbf84;
+}
+
+.d-grid span{
+    color: #6cbf84!important;
+    font-size:14px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.d-grid span a{
+    color: #6cbf84!important;
+    font-size:18px;
+    font-family:'Montserrat', sans-serif;
+}
+
+/* Home & Search */
+
+.big-logo img{
+    display:block; 
+    margin:0 auto 20px;
+    width:164px;
+}
+
+.big-logo p{
+    text-align: center;
+    color:#6cbf84;
+    font-size:16px;
+    font-family:montserrat;
+}
+
+.container-cari{
+    width:527px;
+    height:61px;
+    margin: auto;
+    border-radius:20px;
+    border: 1px solid #6cbf84;
+    display:flex;
+    padding:0 10px;
+    background-color:#FFFFFF;
+}
+
+.container-cari img{
+    width:28px;
+    height:28px;
+    margin: auto 10px;
+}
+
+.input-cari{
+    margin:15px;
+}
+
+#cari-resep {
+    width: 348px;
+    border:none;
+    color:#6cbf84;
+    background-color:#FFFFFF;
+    outline: none;
+}
+
+.input-cari button{
+    width:74px;
+    border:none;
+    line-height:28px;
+    font-size:16px;
+    color:#FFFFFF;
+    background-color:#6cbf84;
+    border-radius:10px;
+}
+
+.show-category{
+    color: #424140;
+    font-family: montserrat, sans-serif;
+    font-weight: 600px;
+    font-size: 24px;
+}
+
+.resep{
+    border:1px solid #6cbf84;
+    width: 255px;
+    height:300px;
+    padding-left:12px;
+    padding-top:10px;
+    border-radius:20px;
+    background:#FFFFFF;
+}
+
+.penulis-resep{
+    display: flex;
+}
+
+.penulis-resep a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.penulis-photo{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-right:6px;
+    float:left;
+}
+
+.penulis-photo img{
+    width: 35px;
+    border-radius:50%;
+}
+
+.penulis-nama{
+    font-size: 14px;
+    margin-top:7px;
+}
+
+.penulis-nama i{
+    color: #5C93FF;
+    margin-left: 1px;
+}
+
+.resep-picture{
+    width:230px;
+    height:165px;
+    border-radius:16px;
+    margin:5px 0;
+    overflow:hidden;
+    -moz-box-shadow: 0 2px 4px rgb(172, 171, 171);
+    -webkit-box-shadow: 0 2px 4px rgb(172, 171, 171);
+    box-shadow: 0 2px 4px rgb(172, 171, 171);
+}
+
+.resep-picture img{
+    width:230px;
+    border-radius:16px;
+}
+
+.deskripsi-resep{
+    max-height: 70px; 
+    max-width:230px;
+    overflow:hidden;
+}
+
+.deskripsi-resep p{
+    white-space: pre-line;
+    margin:0;
+    padding:0;
+    font-size:11px;
+    font-weight:500px;
+    font-family:montserrat, sans-serif;
+    line-height:14.1px;
+}
+
+.judul-resep{
+    max-height:55px;
+    overflow:hidden;
+    line-height: 19px;
+}
+
+.judul-resep a{
+    text-decoration: none;
+    color:#000000;
+    font-size:15px;
+    font-family:montserrat, sans-serif;
+    font-weight: 600px;
+}
+
+.tidak-ada-resep{
+    color: #6cbf84;
+}
+
+.tidak-ada-resep2{
+    color: #6cbf84; 
+    transform: translate(0,-50px);
+}
+
+#keyword, #keyword3 {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 4px 0;
+    border-radius:10px;
+    border:none;
+    outline-color: #6cbf84;
+    margin-bottom: 20px;
+}
+
+#keyword2 {
+    border-radius:10px;
+    border:none;
+    padding: 10px;
+    outline-color: #6cbf84; 
+    margin: 4px 0;          
+    margin-bottom: 20px;
+}
+
+/* Categories */
+
+.judul-hal{
+    color:#6cbf84;
+}
+
+.container-category{
+    background:#f2ad9f;
+    margin:20px auto -10px;
+    border-radius:15px;
+    width:40%;
+    padding:20px;
+    min-width: 400px;
+}
+
+.update-category{
+    float: right;
+    margin: 7px 5px 7px 0;
+}
+
+.update-category button{
+    width: 69px;
+    line-height: 25px;
+    font-size: 15px;
+    color:white;
+    background-color: #6cbf84;
+    border-radius:20px;
+    border:none;
+}
+
+.cancel-category{
+    width:69px;
+    background-color:#6cbf84;
+    float:right;
+    border-radius:20px;
+    text-align:center;
+    line-height:27px;
+    color:#FFFFFF;
+    text-decoration:none;
+    margin: 7px 5px 7px 0;
+}
+
+.container-category a{
+    float:right;
+    width:69px;
+    background-color:#6cbf84;
+    border-radius:20px;
+    text-align:center;
+    line-height:27px;
+    color:#FFFFFF;
+    text-decoration:none;
+    margin-right:5px;
+}
+
+.category-nama{
+    overflow:hidden;
+}
+
+.category-nama p{
+    white-space: pre-line;
+    overflow:hidden;
+    font-size:15px;
+    font-family:montserrat, sans-serif;
+    font-weight: 600px;
+    margin:0;
+    padding:0;
+    max-height:100px;
+    line-height:20px;
+}
+
+.link-tambah-category{
+    text-decoration: none;
+}
+
+#tambah-category{
+    margin:30px auto 0;
+    width:155px;
+    text-align:center;
+}
+
+#edit-resep, #upload-resep, #edit-akun, #tambah-category{
+    width: 155px;
+    line-height: 34px;
+    font-size: 15px;
+    margin: 0 auto;
+    color:white;
+    background-color: #6cbf84;
+    border-radius:10px;
+    border:none;
+}
+
+.container-search{
+    background:#f2ad9f;
+    margin:0 auto 50px;
+    border-radius:15px;
+    width:40%;
+    padding:20px 40px;
+    min-width: 400px;
+}
+
+.container-search .text-center h1{
+    text-align: center;
+    color:#6cbf84;
+    font-family:montserrat;
+}
+
+.container-search form label{
+    color: #6cbf84;
+    font-size:18px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.container-search form button{
+    width:100px;
+    border:none;
+    line-height:28px;
+    font-size:16px;
+    color:#FFFFFF;
+    background-color:#6cbf84;
+    border-radius:10px;
+}
+
+.container-search form button i{
+    font-size: 20px;
+}
+
+/*  Account */
+
+.container-akun-atas{
+    background:#f2ad9f;
+    margin:0 auto 17px;
+    border-radius:15px;
+    width:58%;
+    padding:20px;
+    min-width: 400px;
+    min-height: 150px;
+}
+
+.tombol-verifikasi{
+    width:100px;
+    background-color:#6cbf84;
+    float:right;
+    border-radius:20px;
+    text-align:center;
+    line-height:30px;
+    color:white;
+}
+
+.tombol-verifikasi i{
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.edit-akun-button{
+    width:69px;
+    background-color:#6cbf84;
+    float:right;
+    border-radius:20px;
+    text-align:center;
+    line-height:27px;
+    color:white;
+}
+
+.profil{
+    display: flex;
+}
+
+.user-photo{
+    width:63px;
+    height:63px; 
+    overflow:hidden;
+    border-radius:50%;
+    margin-right:12px;
+}
+
+.user-photo img{
+    width:63px;
+}
+
+.user-username{
+    font-size: 14px;
+    margin-top:10px;
+    font-family: montserrat, sans-serif;
+}
+
+.user-username i{
+    color: #5C93FF;
+    margin-left: 1px;
+    
+}
+
+.user-name{
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
+}
+
+.user-about{
+    white-space: pre-line;
+    max-width: 250px;
+    overflow: hidden;
+    font-family: montserrat, sans-serif;
+}
+
+.container-akun-atas span{
+    color:#6cbf84;
+    font-size:13px;
+    font-family: montserrat, sans-serif;
+}
+
+.container-akun-cari{
+    width:58%;
+    min-width: 400px;
+    margin:0 auto;
+    color:#6cbf84;
+    font-size:15px;
+    margin-bottom:35px;
+}
+
+.input-cari-resep-anda{
+    float:right;
+    border-radius:20px;
+    border:1px solid #6cbf84;
+    display:flex;
+    background-color:#FFFFFF;
+}
+
+.input-cari-resep-anda img{
+    width:22px;
+    height:22px;
+    margin: auto 15px;
+}
+
+#cari-resep-anda {
+    width:275px;
+    border:none;
+    color:#6cbf84;
+    margin:0 0 0 -10px;
+    background-color:#FFFFFF;
+}
+
+#cari-resep-anda:focus {
+    outline: none;
+}
+
+#cari-resep-anda:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font: size 13px;
+}
+
+::placeholder {
+    color: #6cbf84;
+    opacity: 0.5;
+    font-size: 16px; /* Firefox */
+}
+
+#cari-resep-anda::placeholder {
+    font-size: 13px; /* Firefox */
+}
+  
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #6cbf84;
+    opacity: 0.5;
+    font: size 16px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #6cbf84;
+    opacity: 0.5;
+    font: size 16px;
+}
+
+#cari-resep-anda::-ms-input-placeholder { /* Microsoft Edge */
+    font: size 13px;
+}
+
+.container-akun-cari button{
+    width:57px;
+    border:none;
+    line-height:24px;
+    font-size:11px;
+    color:#FFFFFF;
+    background-color:#6cbf84;
+    border-radius:15px;
+    margin:7px 15px 7px 0;
+}
+
+.container-akun-cari p{
+    margin-left: 20px;
+    font-size:16px;
+    font-family: montserrat, sans-serif;
+}
+
+.container-akun-bawah{
+    background:#f2ad9f;
+    margin:20px auto -10px;
+    border-radius:15px;
+    width:58%;
+    padding:20px;
+    min-width: 400px;
+    height: 140px;
+}
+
+.container-akun-bawah .post-picture{
+    width: 140px;
+    height:100px;
+    float:left;
+    margin-right:10px;
+    border-radius:10px;
+    overflow:hidden;
+    -moz-box-shadow: 0 2px 4px rgb(172, 171, 171);
+    -webkit-box-shadow: 0 2px 4px rgb(172, 171, 171);
+    box-shadow: 0 2px 4px rgb(172, 171, 171)
+}
+
+.container-akun-bawah .post-picture img{
+    width:140px;
+}
+
+.crud{
+    display:flex;
+    float:right;
+    position:relative;
+}
+
+.crud ul{
+    list-style-type: none;
+}
+
+.crud ul li a {
+    margin-bottom: 100px;
+    float:right;
+    width:69px;
+    background-color:#6cbf84;
+    float:right;
+    border-radius:20px;
+    text-align:center;
+    line-height:27px;
+    color:#FFFFFF;
+    text-decoration:none;
+    margin-right:5px;
+}
+
+.post-isi{
+    height: 102px;
+    overflow:hidden;
+}
+
+.post-isi .title{
+    white-space: pre-line;
+    overflow:hidden;
+    font-size:15px;
+    font-family:montserrat, sans-serif;
+    font-weight: 600px;
+    max-height:100px;
+    line-height:20px;
+}
+
+.post-isi .ingredient{
+    white-space: pre-line;
+    font-size:11px;
+    font-weight:500px;
+    font-family:montserrat, sans-serif;
+    overflow:hidden;
+    max-height:52px;
+    margin-top:3px;
+}
+
+#edit-category {
+    width: 55%;
+    padding: 10px 18px;
+    border-radius:10px;
+    border:none;
+    outline-color: #6cbf84; 
+}
+
+#category_id {
+    border-radius:5px;
+    border:none;
+    padding: 10px;
+}
+
+#category-name {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 7px 0;
+    border-radius:10px;
+    border:none;
+}
+
+  #add-category{
+    width: 100px;
+    line-height: 44px;
+    font-size: 15px;
+    margin: 7px 0 0 5px;
+    color:white;
+    background-color: #6cbf84;
+    border-radius:10px;
+    border:none;
+}
+
+/* Write & Edit Recipe */
+
+.container-recipe{
+    background:#f2ad9f;
+    margin:0 auto 50px;
+    border-radius:15px;
+    width:58%;
+    padding:20px;
+    min-width: 400px;
+}
+
+.container-recipe form ul{
+    list-style-type:none;
+}
+
+.picture-default{
+    margin:0 auto;
+    width:300px;
+    max-height:200px;
+    border-radius: 23px;
+    overflow:hidden;
+}
+
+.picture-default img{
+    width:300px;
+}
+
+.picture-preview{
+    margin:10px auto;
+    width:300px;
+}
+
+.label-write{
+    color: #6cbf84;
+    font-size:18px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.submit-recipe{
+    margin:30px auto 0;
+    width:155px;
+}
+
+#title {
+    width: 86%;
+    padding: 10px 18px;
+    margin: 7px 0;
+    border-radius:10px;
+    border:none;            
+}
+
+#ingredient, #step, #edit-name, #edit-username, #edit-about {
+    width: 95%;
+    padding: 10px 18px;
+    margin: 7px 0;
+    border-radius:10px;
+    border:none;
+}
+
+#category-name, #title, #ingredient, #step, #category_id, #username, #edit-name, #edit-username, #edit-about:focus, #email {
+    outline-color: #6cbf84;      
+}
+
+#ingredient, #step{
+    overflow: auto;
+    resize: none;
+}
+
+#edit-about{
+    overflow: auto;
+    resize: none;
+}
+
+/* Edit akun */
+
+.container-edit-akun{
+    background:#f2ad9f;
+    margin:0 auto 30px;
+    border-radius:15px;
+    width:58%;
+    padding:20px 50px 20px 20px;
+    min-width: 400px;
+}
+
+.container-edit-akun form ul{
+    list-style-type:none;
+}
+
+.label-edit-photo{
+    margin:0 auto;
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.label-edit-photo img{
+    width:140px;
+}
+
+.input-edit-photo{
+    margin:10px auto;
+    width:300px;
+}
+
+.container-edit-akun form ul li .input-edit{
+    color: #6cbf84;
+    font-size:18px;
+    font-family:'Montserrat', sans-serif;
+}
+
+.container-edit-akun form ul li .bawah{
+    margin-top:10px;
+}
+
+.tombol-edit-akun{
+    margin:0 auto;
+    width:335px;
+    display:flex;
+    margin-top:35px;
+}
+
+.tombol-edit-akun a{
+    text-decoration:none;
+    text-align:center;
+}
+
+.tombol-edit-akun a .cancel{
+    width: 155px; 
+    line-height: 34px; 
+    font-size: 15px;
+    color:white; 
+    background-color: #6cbf84; 
+    border-radius:10px;
+}
+
+#edit-resep, #edit-akun {
+    margin-right:25px;
+}
+
+  #edit-name, #edit-username, #edit-about {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 7px 0;
+    border-radius:10px;
+    border:none;
+}
+
+/* Post */
+
+.container-post-atas{
+    background:#f2ad9f;
+    margin:0 auto;
+    border-radius:15px;
+    width:60%;
+    padding:30px 20px 10px 20px;
+    min-width: 400px;
+    transform: translate(0,-40px);
+    height:70px;
+}
+
+.container-post-atas a .edit{
+    width:69px;
+    background-color:#6cbf84;
+    float:right;
+    border-radius:5px;
+    text-align:center;
+    line-height:27px;
+    color:white;
+    float:left;
+}
+
+.container-post-atas a .delete{
+    width:140px;
+    background-color:#6cbf84;
+    float:right;
+    border-radius:5px;
+    text-align:center;
+    line-height:27px;
+    color:white;
+    float:right;
+}
+
+.container-post-bawah{
+    background:#f2ad9f;
+    margin:0 auto 30px;
+    border-radius:15px;
+    width:60%;
+    padding-bottom:10px;
+    min-width: 400px;
+    transform: translate(0,-30px);
+}
+
+.container-post-bawah .post-title{
+    width:322px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+
+.container-post-bawah .post-title .picture-post{
+    width:322px;
+    height:230px;
+    border-radius: 23px;
+    overflow:hidden;
+}
+
+.container-post-bawah .post-title .picture-post img{
+    width:322px;
+}
+
+.container-post-bawah .post-title p{
+    font-size:24px;
+    margin:10px 0;
+    color:#6cbf84;
+    text-align: center;
+    max-width: 100%;
+    overflow:hidden;
+    font-family:'Montserrat',sans-serif;
+}
+
+.container-post-bawah hr{
+    height:2px;
+    color:#6cbf84;
+}
+
+.container-post-bawah .isi{
+    width:80%;
+    margin:10px auto;
+}
+
+.container-post-bawah .isi .sub-isi{
+    color:#6cbf84;
+    font-size:20px;
+    font-family:'Montserrat', sans-serif;
+    margin-bottom:10px
+}
+
+.container-post-bawah .isi .text-sub-isi{
+    font-weight:500;
+    line-height:20px;
+    color:#7D7B75;
+    font-size:16px;
+    white-space: pre-line;
+    max-width: 100%;
+    overflow:hidden;
+    font-family:'Montserrat',sans-serif;
+}
+
+.post-user-photo{
+    margin:0 auto;
+    width:149px; 
+    height:149px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+
+.post-user-photo img{
+    width: 149px;
+}
+
+.container-post-bawah .text-center p{
+    font-size:24px;
+    font-family:'Montserrat', sans-serif;
+    color:#6cbf84;
+    margin-top: 3px;
+}
+
+.post-user-username{
+    font-size:16px;
+    font-family:'Montserrat', sans-serif;
+    color:#000000;
+    overflow:hidden;
+}
+
+.post-user-username i{
+    color: #5C93FF;
+    margin-left: 1px;
+}
+
+.tanggal{
+    font-size:16px;
+    font-family:'Montserrat', sans-serif;
+    color:#6cbf84;
+}
+
+/* Layar Mengecil */
+@media only screen and (max-width: 600px){
+    #cari-resep {width: 281px;}
+    .container-cari{width:460px;}
+}
+
+@media only screen and (max-width:665px){
+    .show-category{text-align: center;}
+}
+
+@media only screen and (max-width: 850px){
+    #cari-resep-anda{width:200px;}
+}
+
+@media only screen and (max-width:992px){
+    .crud ul li a{margin-bottom: 5px;}
+}
+
+@media only screen and (min-width:992px){
+    .crud ul li{float: left;} 
+}
+
